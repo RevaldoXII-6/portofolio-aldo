@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata & Formulir - Nama Siswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Selamat Datang di Web Saya</h1>
+
+    <p>
+        Halo, nama saya <b>Revaldo Kholif Ahmad</b>. Saya adalah siswa yang sedang
+        belajar HTML dan CSS. Saya memiliki minat di bidang teknologi,
+        khususnya pembuatan website.
+    </p>
+
+    <h2>Foto Profil</h2>
+
+    <img src="aldo.jpg" alt="Foto Profil" width="150">
+
+    <h2>Biodata</h2>
+
+    <ul>
+        <li>Nama : Revaldo Kholif Ahmad</li>
+        <li>Kelas : XII 6</li>
+        <li>Alamat : Kota Mojokerto</li>
+        <li>Hobi : Coding, Membaca, Bermain Game</li>
+    </ul>
+
+    <h2>Tabel Nilai / Keahlian</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">Mata Pelajaran / Keahlian</th>
+                <th colspan="2">Nilai</th>
+            </tr>
+            <tr>
+                <th>Teori</th>
+                <th>Praktik</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>HTML</td>
+                <td>90</td>
+                <td>95</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>CSS</td>
+                <td>88</td>
+                <td>92</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>JavaScript</td>
+                <td>85</td>
+                <td>90</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Formulir Kontak</h2>
+
+    <form>
+
+        <label>Nama Lengkap</label><br>
+        <input type="text" name="nama"><br><br>
+
+        <label>Jenis Kelamin</label><br>
+
+        <input type="radio" name="jk" value="Laki-laki">
+        Laki-laki
+
+        <input type="radio" name="jk" value="Perempuan">
+        Perempuan
+
+        <br><br>
+
+        <label>Pilihan Kelas</label><br>
+
+        <select name="kelas">
+            <option>X</option>
+            <option>XI</option>
+            <option>XII</option>
+        </select>
+
+        <br><br>
+
+        <label>Minat / Hobi</label><br>
+
+        <input type="checkbox" name="hobi"> Web Programming
+        <input type="checkbox" name="hobi"> Networking
+        <input type="checkbox" name="hobi"> Desain Grafis
+        <input type="checkbox" name="hobi"> Editing
+
+        <br><br>
+
+        <label>Pesan / Kesan</label><br>
+
+        <textarea name="pesan" rows="5" cols="40"></textarea>
+
+        <br><br>
+
+        <button type="submit">Kirim Data</button>
+
+    </form>
+
+</body>
+</html>
